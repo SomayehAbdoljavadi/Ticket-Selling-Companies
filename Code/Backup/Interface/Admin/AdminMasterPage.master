@@ -1,0 +1,104 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs"
+    Inherits="Admin_AdminMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Styles/MenuStyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body dir="rtl" style="background-image: url(../Images/Background.jpg);">
+    <form id="form1" runat="server">
+    <div>
+        <table width="100%">
+            <tr>
+                <td>
+                </td>
+                <td style="background-image: url(../Images/templatemo-logo.png); width: 900px; height: 180px;
+                    vertical-align: bottom; background-repeat:no-repeat" >
+                    <ul id="Menu_Holder" class="menus">
+                        <li><a href="Default.aspx">مدیریت اعضا</a></li>
+                        <li><a href="Country.aspx">کشور ها</a></li>
+                        <li><a href="Hotel.aspx">هتل ها</a></li>
+                        <li><a href="AirPlane.aspx">وسايل نقليه</a></li>
+                        <li><a href="Tour.aspx">تور ها</a></li>
+                    </ul>
+                </td>
+                <td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td style="vertical-align: top;">
+                    <table width="100%">
+                        <tr>
+                            <td style="width: 231px; border: 1px; border-color: Black; border-style: outset;
+                                vertical-align: top;">
+                                <div id="Login" runat="server">
+                                    <table width="100%">
+                                        <tr>
+                                            <td>
+                                                <asp:Label ID="Label1" runat="server" Text="نام کاربری :"></asp:Label>
+                                            </td>
+                                            <td>
+                                                <asp:TextBox ID="TxtUsername" runat="server"></asp:TextBox>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <asp:Label ID="Label2" runat="server" Text="رمز عبور :"></asp:Label>
+                                            </td>
+                                            <td>
+                                                <asp:TextBox ID="TxtPassword" runat="server" TextMode="Password"></asp:TextBox>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="2" >
+                                               <center> <asp:Button ID="BtnEnter" runat="server" Text="ورود" OnClick="BtnEnter_Click" /></center>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <div id="LoginRespond" runat="server">
+                                    </div>
+                                </div>
+                                <div id="Welcome" runat="server">
+                                    <asp:Label ID="Label3" runat="server" Text="کاربر "></asp:Label>
+                                    <asp:Label ID="LblUsername" runat="server" Text=""></asp:Label>
+                                    <asp:Label ID="Label4" runat="server" Text=" خوش آمدید ."></asp:Label>
+                                    <br />
+                                 <center>   <asp:Button ID="BtnExit" runat="server" Text="خروج" OnClick="BtnExit_Click" /></center>
+                                </div>
+                                <div id="DivAdminMenus" runat="server">
+                                    <div class="menus">
+                                        <a href="../Admin/Default.aspx">مدیریت</a></div>
+                                </div>
+                                <div id="DivUserMenus" runat="server">
+                                    <div class="menus">
+                                        <a href="../Default.aspx">خانه</a></div>
+                                    <div class="menus">
+                                        <a href="../Register.aspx">ثبت نام</a></div>
+                                    <div class="menus" id="DivChangeProfile" runat="server">
+                                        <a href="../ChangeProfile.aspx">تغییر مشخصات پروفایل</a>
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="vertical-align: top; width:600px;">
+                                <div>
+                                    <asp:ContentPlaceHolder ID="CphMain" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                </td>
+            </tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

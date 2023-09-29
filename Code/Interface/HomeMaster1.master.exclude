@@ -1,0 +1,232 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Carousel Theme - Free CSS Template</title>
+<meta name="keywords" content="carousel theme, free templates, image carousel, darkgray, pixelated background, templatemo, CSS, HTML" />
+<meta name="description" content="Carousel Theme with darkgray background - free CSS template provided by templatemo.com" />
+<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1-4-2.min.js"></script> 
+<!--script type="text/javascript" src="/jqueryui/js/jquery-ui-1.7.2.custom.min.js"></script--> 
+<script type="text/javascript" src="js/jquery-ui.min.js"></script> 
+<script type="text/javascript" src="js/showhide.js"></script> 
+<script type="text/JavaScript" src="js/jquery.mousewheel.js"></script> 
+
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+/***********************************************
+* Smooth Navigational Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "templatemo_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script> 
+
+<!-- Load the CloudCarousel JavaScript file -->
+<script type="text/JavaScript" src="js/cloud-carousel.1.0.5.js"></script>
+ 
+<script type="text/javascript">
+$(document).ready(function(){
+						   
+	// This initialises carousels on the container elements specified, in this case, carousel1.
+	$("#carousel1").CloudCarousel(		
+		{			
+			reflHeight: 40,
+			reflGap:2,
+			titleBox: $('#da-vinci-title'),
+			altBox: $('#da-vinci-alt'),
+			buttonLeft: $('#slider-left-but'),
+			buttonRight: $('#slider-right-but'),
+			yRadius:30,
+			xPos: 480,
+			yPos: 32,
+			speed:0.15,
+		}
+	);
+});
+ 
+</script>
+
+</head>
+
+<body id="home">
+
+<div id="templatemo_header_wrapper">
+	<div id="site_title"><h1><a href="http://www.templatemo.com" rel="nofollow">Free CSS Templates</a></h1></div>
+     <div id="templatemo_menu" class="ddsmoothmenu">
+        <ul>
+            <li><a href="Default.aspx" class="selected">سفر ها</a>
+                <ul>
+                    <li><span class="top"></span><span class="bottom"></span></li>
+                    <li><a rel="nofollow" href="Default.aspx?Id=1">هواپیما</a></li>
+                    <li><a rel="nofollow" href="Default.aspx?Id=2">قطار</a></li>
+                    <li><a rel="nofollow" href="Default.aspx?Id=3">اتوبوس</a></li>
+                    <li><a rel="nofollow" href="Default.aspx?Id=4">سواری</a></li>
+                </ul>
+            </li>
+            <li><a href="#">تنظیمات</a>
+                <ul>
+                    <li><span class="top"></span><span class="bottom"></span></li>
+                    <li id="DivChangeProfile" runat="server"><a rel="nofollow" href="ChangeProfile.aspx">تغییر مشخصات کاربری</a></li>
+                    <li id="DivUserMenus" runat="server"><a rel="nofollow" href="Register.aspx">ثبت نام</a></li>
+                    <li id="DivAdminMenus" runat="server"><a rel="nofollow" href="Admin/Default.aspx">مدیریت</a></li>
+                </ul>
+            </li>
+        </ul>
+        <br style="clear: left" />
+    </div> <!-- end of templatemo_menu -->
+    <div class="cleaner"></div>
+</div>	<!-- END of templatemo_header_wrapper -->
+<div id="templatemo_slider">
+	<!-- This is the container for the carousel. -->
+    <div id = "carousel1" style="width:960px; height:280px;background:none;overflow:scroll; margin-top: 20px">            
+        <!-- All images with class of "cloudcarousel" will be turned into carousel items -->
+        <!-- You can place links around these images -->
+        <a rel="nofollow" href="Default.aspx" rel="lightbox"><img class="cloudcarousel" src="images/slider/01.jpg" alt="CSS Templates 1" title="Website Templates 1" /></a>
+        <a rel="nofollow" href="Default.aspx" rel="lightbox"><img class="cloudcarousel" src="images/slider/02.jpg" alt="CSS Templates 2" title="Website Templates 2" /></a>
+        <a rel="nofollow" href="Default.aspx" rel="lightbox"><img class="cloudcarousel" src="images/slider/03.jpg" alt="CSS Templates 3" title="Website Templates 3" /></a>
+        <a rel="nofollow" href="Default.aspx" rel="lightbox"><img class="cloudcarousel" src="images/slider/04.jpg" alt="CSS Templates 4" title="Website Templates 4" /></a>
+        <a rel="nofollow" href="Default.aspx" rel="lightbox"><img class="cloudcarousel" src="images/slider/05.jpg" alt="Flash Templates 1" title="Flash Templates 1" /></a>
+        <a rel="nofollow" href="Default.aspx" rel="lightbox"><img class="cloudcarousel" src="images/slider/06.jpg" alt="Flash Templates 2" title="Flash Templates 2" /></a>
+        <a rel="nofollow" href="Default.aspx" rel="lightbox"><img class="cloudcarousel" src="images/slider/07.jpg" alt="Flash Templates 3" title="Flash Templates 3" /></a>
+        <a rel="nofollow" href="Default.aspx" rel="lightbox"><img class="cloudcarousel" src="images/slider/08.jpg" alt="Flash Templates 4" title="Flash Templates 4" /></a>
+    </div>
+    
+    <!-- Define left and right buttons. -->
+    <center>
+    <input id="slider-left-but" type="button" value="" />
+    <input id="slider-right-but" type="button" value="" />
+    </center>
+</div>
+<div id="templatemo_main">
+	
+    <div class="cleaner">
+        <form id="form1" runat="server">
+            <table width="100%">
+                <tr>
+                    <td>
+                    </td>
+                    <td style="vertical-align: top;">
+                        <table width="100%">
+                            <tr>
+                                <td style="width: 231px; border: 1px; border-color: Black; border-style: outset;
+                                    vertical-align: top;">
+                                </td>
+                                <td style="vertical-align: top;">
+                                    <asp:ContentPlaceHolder ID="CphMain" runat="server">
+                                    </asp:ContentPlaceHolder>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</div> <!-- END of templatemo_main -->
+
+<div id="templatemo_bottom_wrapper">
+    <div id="templatemo_bottom">
+    	<div class="col one_third">
+        	<h4>لینک های مرتبط </h4>
+            <div class="bottom_box">
+                <ul class="footer_list">
+                    <li><a rel="nofollow" href="http://www.templatemo.com/page/1">Free CSS Templates</a></li>
+                    <li><a href="http://www.webdesignmo.com/blog">Web Design Resources</a></li>
+                    <li><a href="http://www.flashmo.com" rel="nofollow">Free Flash Templates</a></li>
+                    <li><a href="http://www.templatemo.com" rel="nofollow">Website Templates</a></li>
+                    <li><a href="http://www.koflash.com">Free Web Gallery</a></li>
+                </ul>  
+			</div>
+        </div>
+        <div class="col one_third">
+        	<h4>بروز رسانی ها</h4>
+            <div class="bottom_box">
+                <ul class="twitter_post">
+                    <li>Html Updated</li>
+                    <li>Jquery Updated</li>
+                </ul>
+			</div>
+        </div>
+        <div class="col one_third no_margin_right">
+        	<h4>ورود </h4>
+            <div class="bottom_box">
+                <form id="LoginForm" runat="server">
+                    <div id="Login" runat="server" style="direction:rtl;">
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    نام کاربری :
+                                </td>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    رمز عبور :
+                                </td>
+                                <td>
+                                    <asp:TextBox ID="TxtPassword" runat="server" TextMode="Password"></asp:TextBox>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <asp:Button ID="BtnEnter" runat="server" Text="ورود" OnClick="BtnEnter_Click" />
+                                </td>
+                            </tr>
+                        </table>
+                        <div id="LoginRespond" runat="server">
+                        </div>
+                    </div>
+                    <div id="Welcome" runat="server">
+                                        <asp:Label ID="Label3" runat="server" Text="کاربر "></asp:Label>
+                                        <asp:Label ID="LblUsername" runat="server" Text=""></asp:Label>
+                                        <asp:Label ID="Label4" runat="server" Text=" خوش آمدید ."></asp:Label>
+                                        <br />
+                                        <asp:Button ID="BtnExit" runat="server" Text="خروج" OnClick="BtnExit_Click" />
+                                    </div>   
+                </form>           
+                <div class="footer_social_button">
+                    <a href="#"><img src="images/facebook.png" title="facebook" alt="facebook" /></a>
+                    <a href="#"><img src="images/flickr.png" title="flickr" alt="flickr" /></a>
+                    <a href="#"><img src="images/twitter.png" title="twitter" alt="twitter" /></a>
+                    <a href="#"><img src="images/youtube.png" title="youtube" alt="youtube" /></a>
+                    <a href="#"><img src="images/feed.png" title="rss" alt="rss" /></a>
+                </div>
+            </div>
+        </div>
+        
+    	<div class="cleaner"></div>
+    </div> <!-- END of tempatemo_bottom -->
+</div> <!-- END of tempatemo_bottom_wrapper -->
+
+<div id="templatemo_footer_wrapper">
+    <div id="templatemo_footer">
+		<a href="http://www.mystockphoto.com" title="photo" class="footer_img_link"  target="_blank"><img src="images/link.jpg"  title="photo" /></a>
+    	Copyright © 2048 Your Company Name | Designed by <a href="http://www.Google.com">Name</a>
+    </div> <!-- END of templatemo_footer_wrapper -->
+</div> <!-- END of templatemo_footer -->
+
+
+<script type='text/javascript' src='js/logging.js'></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+﻿body
+{
+    direction: rtl;
+}
+.RightTd
+{
+    width: 100;
+    float: left;
+}
+.LeftTd
+{
+    float: right;
+}

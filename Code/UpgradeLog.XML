@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Code  VS 2008">
+</Property><Property Name="Solution File" Value="D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Code  VS 2008.sln">
+</Property><Property Name="Date" Value="14 April 2014">
+</Property><Property Name="Time" Value="11:11">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Code  VS 2008.sln" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\Code  VS 2008.sln">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="Project file successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\DAL.csproj">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL\FilterOperators.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\DAL\FilterOperators.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL\TBAirPlane.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\DAL\TBAirPlane.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL\TBCity.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\DAL\TBCity.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL\TBCountry.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\DAL\TBCountry.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL\TBHotel.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\DAL\TBHotel.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL\TBHotelStars.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\DAL\TBHotelStars.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL\TBMembers.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\DAL\TBMembers.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL\TBPassenger.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\DAL\TBPassenger.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL\TBTicket.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\DAL\TBTicket.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL\TBTour.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\DAL\TBTour.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DAL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DAL" Source="DAL\DAL.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="DAL" Source="DAL\DAL.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL.csproj" Description="Project file successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\DCL.csproj">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL\FilterOperators.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\DCL\FilterOperators.cs">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL\TBAirPlane.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\DCL\TBAirPlane.cs">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL\TBCity.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\DCL\TBCity.cs">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL\TBCountry.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\DCL\TBCountry.cs">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL\TBHotel.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\DCL\TBHotel.cs">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL\TBHotelStars.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\DCL\TBHotelStars.cs">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL\TBMembers.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\DCL\TBMembers.cs">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL\TBPassenger.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\DCL\TBPassenger.cs">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL\TBTicket.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\DCL\TBTicket.cs">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL\TBTour.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\DCL\TBTour.cs">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DCL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DCL" Source="DCL\DCL.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="DCL" Source="DCL\DCL.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML.csproj" Description="Project file successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\DML.csproj">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\Classes\FilterOperator.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\Classes\FilterOperator.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML\FilterOperators.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\DML\FilterOperators.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML\TBAirPlane.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\DML\TBAirPlane.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML\TBCity.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\DML\TBCity.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML\TBCountry.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\DML\TBCountry.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML\TBHotel.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\DML\TBHotel.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML\TBHotelStars.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\DML\TBHotelStars.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML\TBMembers.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\DML\TBMembers.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML\TBPassenger.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\DML\TBPassenger.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML\TBTicket.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\DML\TBTicket.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML\TBTour.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DML\DML\TBTour.cs">
+</Event><Event ErrorLevel="0" Project="DML" Source="DML\DML.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="DML" Source="DML\DML.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="DBL" Source="DBL\DBL.csproj" Description="Project file successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DBL\DBL.csproj">
+</Event><Event ErrorLevel="0" Project="DBL" Source="DBL\DB.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DBL\DB.cs">
+</Event><Event ErrorLevel="0" Project="DBL" Source="DBL\Properties\AssemblyInfo.cs" Description="File successfully backed up as D:\SOMIII\uni\DISIGEN SIT\Agency\Code\Backup\DBL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="DBL" Source="DBL\DBL.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="DBL" Source="DBL\DBL.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="Code  VS 2008.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Code  VS 2008.sln" Description="Converted">
+</Event></UpgradeLog>
